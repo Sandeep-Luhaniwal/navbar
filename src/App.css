@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navBar {
+  width: 300px;
+  height: 100vh;
+  background-color: red;
+  z-index: 5 !important;
+  transition: all 1s ease-in-out;
+}
+
+.margin-left {
+  margin-left: -300px;
+  height: 100vh;
+  transition: all 1s ease-in-out;
+}
+
+.crossIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.menuIcon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1 !important;
+}
+
+.chang {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.relaive {
+  position: relative;
+}
+
+button {
+  background-color: transparent !important;
+  border: none;
+}
